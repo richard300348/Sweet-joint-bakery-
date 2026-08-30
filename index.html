@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Sweet Joint Bakery</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: #fff; }
+  body { font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; }
+  .page { width: min(100vw, 1024px); line-height: 0; }
+  .layout-image { display: block; width: 100%; height: auto; }
+  /* The supplied artwork is the complete visual layout, so it is used as the
+     pixel-faithful page artwork. The transparent hit areas below make the
+     pictured navigation/buttons usable without changing the artwork. */
+  .site { position: relative; width: 100%; }
+  .hit { position: absolute; display: block; cursor: pointer; }
+  .home { left: 31%; top: 5.7%; width: 8%; height: 3.5%; }
+  .menu { left: 41%; top: 5.7%; width: 8%; height: 3.5%; }
+  .about { left: 49%; top: 5.7%; width: 8%; height: 3.5%; }
+  .order { left: 57%; top: 5.7%; width: 8%; height: 3.5%; }
+  .contact { left: 66%; top: 5.7%; width: 9%; height: 3.5%; }
+  .order-now { left: 12%; top: 36%; width: 24%; height: 5%; }
+  .cashapp { left: 78%; top: 2.2%; width: 20%; height: 8%; }
+  @media (max-width: 600px) {
+    .hit { -webkit-tap-highlight-color: transparent; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="site">
+    <img class="layout-image" src="layout.png" alt="The Sweet Joint Bakery website layout">
+    <a class="hit home" href="#top" aria-label="Home"></a>
+    <a class="hit menu" href="#menu" aria-label="Menu"></a>
+    <a class="hit about" href="#about" aria-label="About"></a>
+    <a class="hit order" href="#order" aria-label="Order"></a>
+    <a class="hit contact" href="#contact" aria-label="Contact"></a>
+    <a class="hit order-now" href="#order" aria-label="Order now"></a>
+    <a class="hit cashapp" href="#order" aria-label="Pay with Cash App"></a>
+  </div>
+  <section id="menu" aria-label="Menu"></section>
+  <section id="about" aria-label="About"></section>
+  <section id="order" aria-label="Order"></section>
+  <section id="contact" aria-label="Contact"></section>
+</main>
+</body>
+</html>
