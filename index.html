@@ -3,66 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Sweet Joint Bakery | Fresh-Baked Sweet Treats</title>
-<meta name="description" content="The Sweet Joint Bakery — fresh cookies, specialty treats, cupcakes, cake and bread with big 90s street-art style.">
-<meta name="keywords" content="The Sweet Joint Bakery, bakery, cookies, cupcakes, specialty treats, cake, bread, desserts, fresh baked goods">
-<meta name="author" content="The Sweet Joint Bakery">
-<meta name="robots" content="index, follow">
-<meta name="theme-color" content="#1680c4">
-<meta name="application-name" content="The Sweet Joint Bakery">
-<meta name="apple-mobile-web-app-title" content="Sweet Joint Bakery">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="favicon.svg">
-<link rel="canonical" href="https://www.SweetJointBakery.online/">
-<meta property="og:site_name" content="The Sweet Joint Bakery">
-<meta property="og:title" content="The Sweet Joint Bakery | Fresh-Baked Sweet Treats">
-<meta property="og:description" content="Sweet treats. Big personality. Fresh-baked cookies, specialty sweets, cake and bread.">
+<meta name="description" content="The Sweet Joint Bakery — good treats, dope flavor, made fresh.">
+<meta name="theme-color" content="#0756b8">
+<meta property="og:title" content="The Sweet Joint Bakery">
+<meta property="og:description" content="Fresh cookies, specialty treats, cupcakes, cakes and bread.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.SweetJointBakery.online/">
-<meta property="og:image" content="https://www.SweetJointBakery.online/layout.png">
-<meta property="og:image:alt" content="The Sweet Joint Bakery website">
-<meta property="og:image:type" content="image/png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="The Sweet Joint Bakery | Fresh-Baked Sweet Treats">
-<meta name="twitter:description" content="Sweet treats. Big personality. Fresh-baked cookies, specialty sweets, cake and bread.">
-<meta name="twitter:image" content="https://www.SweetJointBakery.online/layout.png">
-<meta name="twitter:image:alt" content="The Sweet Joint Bakery website">
+<title>The Sweet Joint Bakery</title>
 <style>
-  * { box-sizing: border-box; }
-  html, body { margin: 0; min-height: 100%; background: #fff; }
-  body { font-family: Arial, Helvetica, sans-serif; display: flex; justify-content: center; }
-  .page { width: min(100vw, 1024px); line-height: 0; }
-  .layout-image { display: block; width: 100%; height: auto; }
-  .site { position: relative; width: 100%; }
-  .hit { position: absolute; display: block; cursor: pointer; }
-  .home { left: 31%; top: 5.7%; width: 8%; height: 3.5%; }
-  .menu { left: 41%; top: 5.7%; width: 8%; height: 3.5%; }
-  .about { left: 49%; top: 5.7%; width: 8%; height: 3.5%; }
-  .order { left: 57%; top: 5.7%; width: 8%; height: 3.5%; }
-  .contact { left: 66%; top: 5.7%; width: 9%; height: 3.5%; }
-  .order-now { left: 12%; top: 36%; width: 24%; height: 5%; }
-  .cashapp { left: 78%; top: 2.2%; width: 20%; height: 8%; }
-  @media (max-width: 600px) {
-    .hit { -webkit-tap-highlight-color: transparent; }
-  }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Bangers&family=Roboto:wght@400;700;900&display=swap');
+:root{--blue:#0756b8;--ink:#090909;--paper:#f7f3e9;--pink:#ff1b9b;--yellow:#ffd92f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Roboto,Arial,sans-serif}
+body:before,body:after{content:"";position:fixed;z-index:-2;inset:0;background-size:48px 48px;background-image:linear-gradient(45deg,var(--blue) 25%,transparent 25%,transparent 75%,var(--blue) 75%),linear-gradient(45deg,var(--blue) 25%,transparent 25%,transparent 75%,var(--blue) 75%);background-position:0 0,24px 24px;opacity:.13}
+body:after{z-index:-1;background:radial-gradient(circle at 20% 30%,#fff 0 30%,transparent 31%),radial-gradient(circle at 80% 65%,#fff 0 28%,transparent 29%);opacity:.8}
+.header{position:sticky;top:0;z-index:20;background:rgba(247,243,233,.97);border-bottom:5px solid var(--ink);box-shadow:0 5px 0 var(--blue)}
+.nav{max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:10px 18px;gap:18px}.brand{font-family:'Bangers',cursive;font-size:2.2rem;color:var(--blue);text-shadow:3px 3px 0 #fff,5px 5px 0 var(--ink);line-height:.9}.brand span{display:block;color:var(--pink);font-family:'Permanent Marker';font-size:1rem;text-shadow:2px 2px #111;margin-left:32px}.links{display:flex;gap:24px;flex-wrap:wrap}.links a{font-weight:900;color:#111;text-decoration:none}.links a:hover{color:var(--blue)}
+.cash{background:#111;color:#fff;padding:10px 14px;border-radius:4px;font-weight:900;text-align:center;box-shadow:4px 4px 0 var(--blue)}.cash b{color:var(--yellow)}
+.hero{max-width:1200px;margin:28px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center;padding:42px 28px 55px;border-bottom:7px solid #111;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;left:-5%;right:-5%;bottom:-22px;height:60px;background:repeating-linear-gradient(90deg,#111 0 28px,#fff 28px 56px);transform:rotate(-1deg)}
+.kicker{font-family:'Permanent Marker';color:var(--pink);font-size:1.4rem;transform:rotate(-3deg);display:inline-block}.hero h1{font-family:'Bangers',cursive;font-size:clamp(4rem,9vw,8rem);line-height:.83;color:var(--blue);margin:8px 0 22px;text-shadow:5px 5px 0 #fff,9px 9px 0 #111}.hero h1 span{display:block;color:#111;text-shadow:3px 3px 0 #fff}.hero p{font-size:1.2rem;max-width:540px;font-weight:700}.btn{display:inline-block;background:#111;color:#fff;text-decoration:none;font-weight:900;padding:15px 24px;margin-top:12px;box-shadow:6px 6px 0 var(--blue);border:3px solid #111}.btn:hover{background:var(--blue)}
+.art{min-height:360px;display:grid;place-items:center;position:relative}.cookie-stack{width:310px;height:260px;position:relative;transform:rotate(-3deg)}.cookie{position:absolute;width:220px;height:75px;border-radius:48%;background:#c8792c;border:5px solid #111;box-shadow:inset 0 0 0 4px #e9a552,6px 7px 0 #111}.cookie i{position:absolute;width:13px;height:13px;background:#3a1b08;border-radius:50%;box-shadow:40px 10px #3a1b08,82px -8px #3a1b08,130px 12px #3a1b08,170px -4px #3a1b08}.c1{top:115px;left:20px;transform:rotate(7deg)}.c2{top:68px;left:58px;transform:rotate(-5deg)}.c3{top:20px;left:105px;transform:rotate(5deg)}.sprinkle{position:absolute;right:0;bottom:30px;width:155px;height:125px;background:#fff;border:5px solid #111;border-radius:45% 55% 48% 52%;transform:rotate(8deg);box-shadow:8px 8px 0 var(--blue)}.sprinkle:before{content:"";position:absolute;inset:22px;background:repeating-linear-gradient(30deg,var(--blue) 0 7px,transparent 7px 22px);border-radius:50%}.tag{position:absolute;right:5%;bottom:0;font-family:'Permanent Marker';font-size:2rem;transform:rotate(-6deg);color:#111}.tag span{color:var(--blue)}
+.features{background:var(--blue);color:#fff;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:18px max(18px,calc((100% - 1160px)/2));font-weight:900}.feature{text-align:center;padding:5px}.feature strong{display:block;font-size:1.05rem}.feature small{font-weight:400}
+.section{max-width:1200px;margin:45px auto;padding:0 18px}.section-title{text-align:center;font-family:'Bangers';font-size:3rem;margin:0 0 28px}.section-title span{background:#111;color:#fff;padding:5px 25px;display:inline-block;transform:rotate(-2deg);text-shadow:2px 2px var(--blue)}.menu{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:rgba(255,255,255,.9);border:4px solid var(--blue);border-radius:12px;padding:20px;box-shadow:5px 6px 0 #111;position:relative}.card h2{font-family:'Permanent Marker';font-size:1.8rem;color:var(--blue);margin:0 0 10px}.card h2.pink{color:var(--pink)}.price{font-weight:900;margin:8px 0 12px}.card ul{padding-left:22px;line-height:1.65;margin:8px 0}.mix{border:3px solid var(--blue);padding:10px;font-weight:900;margin:12px 0}.special-price{background:#111;color:#fff;padding:12px;font-weight:900;border-radius:4px}.addons{border-top:4px solid var(--blue);margin-top:15px;padding-top:12px}.coming{min-height:135px;display:grid;place-items:center;background:#111;color:#fff;font-family:'Bangers';font-size:2.2rem;transform:rotate(-2deg);text-align:center}.thank{font-family:'Permanent Marker';font-size:1.6rem;line-height:1.1}.thank span{color:var(--blue)}
+.footer{background:#090909;color:#fff;padding:35px 18px}.footer-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:1.2fr 2fr 1.2fr 1.2fr;gap:25px}.footer h3{font-family:'Permanent Marker';color:var(--blue);font-size:1.4rem;margin:0 0 8px}.footer .brand{color:#fff;text-shadow:2px 2px var(--blue);font-size:2rem}.footer p{margin:6px 0;line-height:1.5}.copy{text-align:center;margin-top:25px;padding-top:15px;border-top:1px solid #444;font-size:.85rem}
+@media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center}.hero p{margin-left:auto;margin-right:auto}.art{min-height:320px}.features{grid-template-columns:repeat(2,1fr)}.menu{grid-template-columns:1fr 1fr}.footer-inner{grid-template-columns:1fr 1fr}.nav{flex-wrap:wrap}.links{order:3;width:100%;justify-content:center}}
+@media(max-width:600px){.nav{justify-content:center}.brand{text-align:center}.links{gap:12px;font-size:.9rem}.cash{font-size:.85rem}.hero{padding:30px 16px 48px}.hero h1{font-size:4rem}.art{transform:scale(.85);margin:-20px 0}.features{grid-template-columns:1fr 1fr;font-size:.85rem}.menu{grid-template-columns:1fr}.section{margin:35px auto}.footer-inner{grid-template-columns:1fr;text-align:center}.footer .brand span{margin-left:0}}
 </style>
 </head>
 <body>
-<main class="page">
-  <div class="site">
-    <img class="layout-image" src="layout.png" alt="The Sweet Joint Bakery website layout">
-    <a class="hit home" href="#top" aria-label="Home"></a>
-    <a class="hit menu" href="#menu" aria-label="Menu"></a>
-    <a class="hit about" href="#about" aria-label="About"></a>
-    <a class="hit order" href="#order" aria-label="Order"></a>
-    <a class="hit contact" href="#contact" aria-label="Contact"></a>
-    <a class="hit order-now" href="#order" aria-label="Order now"></a>
-    <a class="hit cashapp" href="#order" aria-label="Pay with Cash App"></a>
-  </div>
-  <section id="menu" aria-label="Menu"></section>
-  <section id="about" aria-label="About"></section>
-  <section id="order" aria-label="Order"></section>
-  <section id="contact" aria-label="Contact"></section>
+<header class="header"><nav class="nav"><div class="brand">THE SWEET JOINT<span>BAKERY</span></div><div class="links"><a href="#home">HOME</a><a href="#menu">MENU</a><a href="#about">ABOUT</a><a href="#order">ORDER</a><a href="#contact">CONTACT</a></div><div class="cash">$<b>SweetJointBakery</b><br>PAY WITH CASH APP 💵</div></nav></header>
+<main>
+<section class="hero" id="home"><div><div class="kicker">GOOD TREATS.</div><h1>DOPE <span>FLAVOR.</span><span>MADE FRESH.</span></h1><p>Homemade treats with love, flavor and a whole lot of vibes.</p><a class="btn" href="#order">ORDER NOW →</a></div><div class="art"><div class="cookie-stack"><div class="cookie c1"><i></i></div><div class="cookie c2"><i></i></div><div class="cookie c3"><i></i></div><div class="sprinkle"></div></div><div class="tag">STRAIGHT<br><span>→ UP FIRE!</span></div></div></section>
+<div class="features"><div class="feature">💵<strong>CASH APP PAYMENTS</strong><small>Fast. Easy. Secure.</small></div><div class="feature">🥣<strong>MIX & MATCH</strong><small>Pick your faves!</small></div><div class="feature">◷<strong>MADE TO ORDER</strong><small>Fresh every time.</small></div><div class="feature">♡<strong>LOVE IN EVERY BITE</strong><small>Baked with good vibes.</small></div></div>
+<section class="section" id="menu"><h2 class="section-title"><span>MENU</span></h2><div class="menu">
+<article class="card"><h2>🍪 COOKIES</h2><div class="price">Half Dozen $5 &nbsp; | &nbsp; Baker's Dozen $10</div><div class="mix">🔀 MIX & MATCH<br><small>Choose multiple flavors!</small></div><ul><li>❤️ Red Velvet</li><li>🍇 Oatmeal Raisin</li><li>🍎 Apple Oat</li><li>🍬 Sugar Cookies</li><li>🍫 Brownie Bites</li></ul></article>
+<article class="card"><h2>🧁 CUPCAKE & CAKE</h2><ul><li>Strawberry Short Cupcakes</li><li>Burger-Themed Cookies</li><li>Peach Cobbler Bites</li></ul><div class="special-price">Single $3<br>Half Dozen $8<br>Baker's Dozen $15</div></article>
+<article class="card"><h2>🍩 PASTRY & DONUT</h2><div class="price">Mini $3 &nbsp; | &nbsp; Large $10</div><ul><li>Banana Bread</li><li>Orange Cake</li><li>Strawberry Cake</li><li>Lemon Cake</li></ul><div class="addons"><strong>＋ ADD-ONS</strong><br>Walnuts, chocolate chips, icing, blueberries, strawberries, chocolate drizzle</div></article>
+<article class="card"><h2 class="pink">🍭 CANDY</h2><div class="coming">COMING SOON!</div></article>
+<article class="card"><h2>❄️ FROZEN TREATS</h2><div class="coming">COMING SOON!</div></article>
+<article class="card"><div class="thank">THANK YOU<br>FOR SUPPORTING<br><span>A LOCAL BAKER!</span> 👑</div></article>
+</div></section>
+<section class="section" id="about"><div class="card"><h2>💙 ABOUT US</h2><p>The Sweet Joint Bakery is all about homemade treats, bold flavor and a whole lot of good vibes. Thanks for supporting a local baker!</p></div></section>
+<section class="section" id="order"><div class="card" style="text-align:center"><h2>🛍️ ORDER YOUR TREATS</h2><p>Choose your favorites, mix and match your cookies, then pay with Cash App.</p><a class="btn" href="https://cash.app/$SweetJointBakery" target="_blank" rel="noopener">PAY WITH CASH APP</a><p><strong>$SweetJointBakery</strong></p></div></section>
+<section class="section" id="contact"><div class="card" style="text-align:center"><h2>📞 LET'S CONNECT</h2><p>Instagram • TikTok • Facebook</p><p>sweetjointbakery@gmail.com</p><p>(555) 123-4567</p></div></section>
 </main>
+<footer class="footer"><div class="footer-inner"><div><div class="brand">THE SWEET JOINT<span>BAKERY</span></div></div><div><h3>ABOUT US</h3><p>The Sweet Joint Bakery started with a simple love for baking and a mission to spread joy one treat at a time.</p></div><div><h3>LET'S CONNECT</h3><p>Instagram • TikTok • Facebook</p><p>(555) 123-4567<br>sweetjointbakery@gmail.com</p></div><div><h3>HOURS</h3><p>Tuesday – Saturday<br>10AM – 7PM</p><p>Sunday<br>CLOSED</p></div></div><div class="copy">© 2026 The Sweet Joint Bakery • Good treats. Dope flavor. Made fresh.</div></footer>
 </body>
 </html>
